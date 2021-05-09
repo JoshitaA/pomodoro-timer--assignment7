@@ -1,0 +1,90 @@
+﻿body{
+	background-color: #fffbdf;
+}
+.container{
+	width:500px;
+	height: 500px;
+	margin:20px auto;
+	background-color: tomato;
+	padding: 20px;
+	text-align: center;
+	font-family: 'Slabo 27px', serif;
+	border-radius:50%;
+	color: white;
+	justify-content: center;
+	align-items: center;
+}
+@media screen and(max-width:800px){
+	.container{
+		width:500px;
+		height: 500px;
+		margin:20px auto;
+		background-color: tomato;
+		padding: 20px;
+		text-align: center;
+		font-family: 'Slabo 27px', serif;
+		border-radius:50%;
+		color: white;
+		justify-content: center;
+	    align-items: center;
+	}
+}
+
+
+.set-time p{
+	font-size: 30px;
+	font-weight: bold;
+}
+
+#more:hover,#less:hover{
+	cursor: pointer; cursor: hand;
+	color: green;
+}
+
+#timer{
+    
+	width: 500px;
+	margin: 0 auto;
+
+}
+
+.clock{
+ 	
+	color:green;
+	font-size: 6em;
+}
+
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 22px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+	border-radius: 50%;
+    box-shadow: 10px 10px 16px -3px rgba(0,0,0,0.2);
+	cursor: pointer; cursor: hand;
+}
+
+#stop{
+	margin: 0 20px;
+	background-color: red;
+}
+
+#reset{
+	background-color: yellow;
+	color: #222;
+}
+
+#stop:hover{
+	background-color: rgb(221, 8, 8);
+}
+#reset:hover{
+	background-color: rgb(230, 230, 1);
+
+}
+#start:hover{
+	background-color: #289e2b;
+}
